@@ -1,5 +1,9 @@
 package riqinho.com.github.cryptomonitor.model
 
+class TickerResponse(
+    val ticker: Ticker
+)
+
 class Ticker(
     val high: String,
     val low: String,
@@ -8,8 +12,4 @@ class Ticker(
     val buy: String,
     val sell: String,
     val date: Long
-)
-
-class TickerResponse(
-    val ticker: Ticker
 )
